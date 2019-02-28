@@ -2,7 +2,7 @@ package com.crashiura.leecode.t2_add_two_numbers;
 
 public class Main {
 
-    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    private ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
         ListNode result = new ListNode(0);
         int remainder = 0;

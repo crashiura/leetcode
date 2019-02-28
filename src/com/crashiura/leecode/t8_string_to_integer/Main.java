@@ -5,7 +5,7 @@ public class Main {
         System.out.println(myAtoi("45"));
     }
 
-    public static int myAtoi(String str) {
+    private static int myAtoi(String str) {
         if (str == null || str.isEmpty()) {
             return 0;
         }
